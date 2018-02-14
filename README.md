@@ -35,6 +35,7 @@ mmu_sim.cpp:
 GRADE RECEIVED: B
 compile: g++ -o <executable_name> mmu.cpp -lpthread -std=c++11
 run: ./mmu <power_of_two>
+	-it is not checked for, but the program worked best if the power of two is somewhere around 8,192-65,536 (2^13-2^16)
 
   This progam was meant to simulate a memory managment unit, and give us hands on experience implementing a paging algorithm. We had to simulate what happens when there is a page fault (finding open space on hard disc, loading information from another process there, updating the page table, and vitual address tables, load the needed memory in from the hard disc).
   
