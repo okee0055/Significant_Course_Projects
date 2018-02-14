@@ -2,8 +2,11 @@
 Repository of biggest course projects completed.
 
 OSShell.cpp:
+
 GRADE RECEIVED: A
+
 compile: g++ -o <executable_name> OSShell.cpp -lpthread -std=c++11
+
 run: ./OSShell
 
   This was an assignment in which we were to wrote c++ code which would use fork() and exec() to create a new shell. The new shell would have all the normal functionality of the usual Linux shell as well as have access to our custome lsr command. lsr is a lot like ls and will show the conents of files, color the files according to type (Directory, executable, other) and will print subdirectories and files tabbed in.
@@ -12,8 +15,11 @@ run: ./OSShell
   
   
  scheduler_sim.cpp:
+ 
  GRADE RECEIVED: A
+ 
  compile: g++ -o <executable_name> scheduler_sim.cpp -lpthread -std=c++11
+ 
  run: ./scheduler_sim -c <num_processors> -p <num_processes> -s <schedular_algorithm> -o <context_switch_lenth_in> -t <time_slice_length>
  
  	-c input must be between 1-4
@@ -32,9 +38,13 @@ run: ./OSShell
    
    
 mmu_sim.cpp:
+
 GRADE RECEIVED: B
+
 compile: g++ -o <executable_name> mmu.cpp -lpthread -std=c++11
+
 run: ./mmu <power_of_two>
+
 	-it is not checked for, but the program worked best if the power of two is somewhere around 8,192-65,536 (2^13-2^16)
 
   This progam was meant to simulate a memory managment unit, and give us hands on experience implementing a paging algorithm. We had to simulate what happens when there is a page fault (finding open space on hard disc, loading information from another process there, updating the page table, and vitual address tables, load the needed memory in from the hard disc).
