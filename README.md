@@ -1,7 +1,7 @@
 # Significant_Course_Projects
 Repository of biggest course projects completed.
 
-OSShell.cpp:
+----OSShell.cpp----
 
 GRADE RECEIVED: A
 
@@ -14,7 +14,7 @@ run: ./OSShell
   A partner an I wrote the lsr function, and the team of four all worked on fitting the lsr into the OSShell code. I also wrote the str_split function at the bottom of the file.
   
   
- scheduler_sim.cpp:
+ ----scheduler_sim.cpp----
  
  GRADE RECEIVED: A
  
@@ -37,7 +37,7 @@ run: ./OSShell
    This was written by myself and a partner. The "printerer" function at the end was written by a third member of the team who was gone for the last half of the project.
    
    
-mmu_sim.cpp:
+----mmu_sim.cpp----
 
 GRADE RECEIVED: B
 
